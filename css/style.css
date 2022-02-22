@@ -5,6 +5,9 @@
 	position: relative;
 	margin: auto;
 	transition: all 2s linear 0.3s;
+	margin-bottom: 70px;
+	-webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 19px 28px 6px 13px rgba(255,176,42,0); 
+box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 19px 28px 6px 13px rgba(255,176,42,0);
 }
 
 .bigbox:hover {
@@ -25,3 +28,39 @@
 .smallbox:hover {
 	transform: translate(-50%, -50%) rotate(45deg);
 }
+
+.ball {
+	width: 150px;
+	height: 150px;
+	background-color: darkred;
+	border-radius: 100%;
+
+	position: relative;
+	animation: myball 3s infinite linear;
+	margin-bottom: 100px;
+}
+
+@keyframes myball {
+  0%   {top: 0px; left: 0px; background: red;}
+  25%  {top: 0px; left: 100px; background: blue;}
+  50%  {top: 100px; left: 100px; background: yellow;}
+  75%  {top: 100px; left: 0px; background: green;}
+  100% {top: 0px; left: 0px; background: red;}
+}
+
+
+p {
+	color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+img {
+	margin-top: 50px ;
+	-webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+
+
+
